@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -13,4 +16,29 @@
     max-width: 1170px;
     margin: 0 auto;
     padding: 15px;
+}
+
+.divider {
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: center;
+    align-items: center;
+    &__line_1 {
+    width: 390px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    height: 1px;
+    }
+    &__dott {
+        width: 9px;
+        height: 9px;
+        background-color: #ffffff;
+        border-radius: 100%;
+    }
+    &__line_2 {
+        width: 390px;
+        background-color: #ffffff;
+        margin-left: 10px;
+        height: 1px;
+    }
 }
