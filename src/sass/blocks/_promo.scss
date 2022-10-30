@@ -57,5 +57,28 @@
         hyphens: auto;
         word-wrap: break-word;
     }
-    
+    &__divider {
+        display: flex;
+        margin-bottom: 35px;
+        justify-content: center;
+        align-items: center;
+        .divider__line_1 {
+        width: 390px;
+        background-color: #ffffff;
+        margin-right: 10px;
+        height: 1px;
+        }
+        .divider__dott {
+            width: 9px;
+            height: 9px;
+            background-color: #ffffff;
+            border-radius: 100%;
+        }
+        .divider__line_2 {
+            width: 390px;
+            background-color: #ffffff;
+            margin-left: 10px;
+            height: 1px;
+        }
+    }
 }

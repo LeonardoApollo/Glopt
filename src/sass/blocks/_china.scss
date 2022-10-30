@@ -1,0 +1,33 @@
+.china {
+    padding-top: 55px;
+    padding-bottom: 75px;
+    background: url(../img/china_bg.jpg) center (center/cover) no-repeat;
+    &__icon {
+        width: 102px;
+        height: 102px;
+        margin: 0 auto 15px auto;
+    }
+    &__circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__subtitle {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1025px;
+    }
+}

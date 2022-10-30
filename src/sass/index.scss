@@ -5,6 +5,10 @@
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/work';
+@import 'blocks/china';
+@import 'blocks/price';
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -15,30 +19,12 @@
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0px 15px 0px 15px;
 }
 
 .divider {
-    display: flex;
-    margin-bottom: 35px;
-    justify-content: center;
-    align-items: center;
-    &__line_1 {
-    width: 390px;
-    background-color: #ffffff;
-    margin-right: 10px;
+    width: 150px;
     height: 1px;
-    }
-    &__dott {
-        width: 9px;
-        height: 9px;
-        background-color: #ffffff;
-        border-radius: 100%;
-    }
-    &__line_2 {
-        width: 390px;
-        background-color: #ffffff;
-        margin-left: 10px;
-        height: 1px;
-    }
+    background-color: #ec644b;
+    margin: 16px auto 0px auto;
 }

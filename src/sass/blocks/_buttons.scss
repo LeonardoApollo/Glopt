@@ -8,9 +8,14 @@
 	font-size: 12px;
 	text-transform: uppercase;
     transition: all .2s linear;
+    cursor: pointer;
     &_main {
         width: 160px;
         height: 45px;
+        a {
+            text-decoration: none;
+            color: #ffffff;
+        }
     }
     &:hover {
         background-color: #dc5238;
@@ -22,5 +27,12 @@
         height: 57px;
         font-weight: 700;
         font-size: 15px;
+    }
+    &_card {
+        display: block;
+        margin: 25px auto;
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
     }
 }

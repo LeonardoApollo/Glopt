@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+
     <section class="promo">
         <div class="container">
             <header class="header" id="header">
@@ -18,8 +19,8 @@
                     </a>
                     
                     <nav class="header__nav" id="nav">
-                        <a class="header__link" href="#" data-scroll="#advantages">Приемущества</a>
-                        <a class="header__link" href="#" data-scroll="#work">Наша работа</a>
+                        <a class="header__link" href="#advantages" data-scroll="#advantages">Приемущества</a>
+                        <a class="header__link" href="#work" data-scroll="#work">Наша работа</a>
                         <a class="header__link" href="#" data-scroll="#price">Цены</a>
                         <a class="header__link" href="#" data-scroll="#sheme">Схема работы</a>
                         <a class="header__link" href="#" data-scroll="#review">Отзывы</a>
@@ -30,7 +31,7 @@
                         <div class="header__quest">Есть вопросы?</div>
                         <a href="tel:+74999228974" class="header__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button data-modal="consultation" class="button button_main">перезвоните мне</button>
+                    <button class="button button_main"><a href=»tel:+74999228974″>перезвоните мне</a></button>
                 </div>
         </header>
 
@@ -39,7 +40,7 @@
             <h1 class="promo__header">Доставака грузов из Китая</h1>
             <h2 class="promo__subheader">В россию и СНГ всеми видами транспорта</h2>
 
-            <div class="divider">
+            <div class="promo__divider">
                 <div class="divider__line_1"></div>
                 <div class="divider__dott"></div>
                 <div class="divider__line_2"></div>
@@ -48,7 +49,7 @@
             <div class="promo__items">
                 <div class="promo__item">
                     <div class="promo__icon">
-                        <img src="icons/cargo.png" alt="timer">
+                        <img src="icons/cargo.png" alt="cargo">
                     </div>
                     <div class="promo__text">
                         Перевозка негабаритных и крупнотоннажных грузов
@@ -56,7 +57,7 @@
                 </div>
                 <div class="promo__item">
                     <div class="promo__icon">
-                        <img src="icons/check.png" alt="timer">
+                        <img src="icons/check.png" alt="check">
                     </div>
                     <div class="promo__text">
                         Самостоятельно декларируем и проводим таможенную очистку с оптимизацией кодов и ставок
@@ -72,7 +73,7 @@
                 </div>
                 <div class="promo__item">
                     <div class="promo__icon">
-                        <img src="icons/fast_delivery.png" alt="massage">
+                        <img src="icons/fast_delivery.png" alt="delivery">
                     </div>
                     <div class="promo__text">
                         Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг
@@ -80,10 +81,268 @@
                 </div>
             </div>
 
-            <button data-modal="consultation" class="button button_promo">Получить расчет</button>
+            <button class="button button_promo">Получить расчет</button>
         </div>
     </div>
     </section>
+
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <div class="advantages__title">
+                <h2>Преимущества работы с Globalopt</h2>
+            </div>
+            <div class="advantages__wrapper">
+                <div class="advantages__section">
+                    <div class="advantages__icon">
+                        <img src="icons/office.png" alt="office">
+                    </div>
+                    <div class="advantages__descr">
+                        <div class="advantages__subtitle">
+                            Офисы в Китае и России
+                        </div>
+                        <div class="advantages__text">
+                            Офисы расположены в Москве, столице России.  И в Гуанчжоу, мировом торговом мегаполисе Китая.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__section">
+                    <div class="advantages__icon">
+                        <img src="icons/decloretion.png" alt="decloration">
+                    </div>
+                    <div class="advantages__descr">
+                        <div class="advantages__subtitle">
+                            Декларируем груз с оптимизацией
+                        </div>
+                        <div class="advantages__text">
+                            Идем на встречу своим клиентам и помогаем растаможить груз с оптимизацией кодов и ставок.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__section">
+                    <div class="advantages__icon">
+                        <img src="icons/people.png" alt="people">
+                    </div>
+                    <div class="advantages__descr">
+                        <div class="advantages__subtitle">
+                            Квалифицированные кадры
+                        </div>
+                        <div class="advantages__text">
+                            Наши сотрудники имеют большой опыт в логистике с Китаем и в совершенстве владеют китайским и английским языками.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__section">
+                    <div class="advantages__icon">
+                        <img src="icons/search.png" alt="search">
+                    </div>
+                    <div class="advantages__descr">
+                        <div class="advantages__subtitle">
+                            Осуществляем поиск производителей
+                        </div>
+                        <div class="advantages__text">
+                            Помогаем нашим клиентам найти интересующий вас товар или производителя в Китае.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__section">
+                    <div class="advantages__icon">
+                        <img src="icons/stock.png" alt="stock">
+                    </div>
+                    <div class="advantages__descr">
+                        <div class="advantages__subtitle">
+                            Собственный склад в Китае
+                        </div>
+                        <div class="advantages__text">
+                            Свой склад в Китае, позволяет собирать и проверять и упаковывать  ваши товары, перед отправкой.
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__section">
+                    <div class="advantages__icon">
+                        <img src="icons/transfer.png" alt="transfer">
+                    </div>
+                    <div class="advantages__descr">
+                        <div class="advantages__subtitle">
+                            Перевод денег в Китай
+                        </div>
+                        <div class="advantages__text">
+                            Помогаем переводить и оплачивать товар в Китае на льготных условиях
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__section">
+                    <div class="advantages__icon">
+                        <img src="icons/wholesale.png" alt="wholesale">
+                    </div>
+                    <div class="advantages__descr">
+                        <div class="advantages__subtitle">
+                            Делаем оптовые поставки под ключ
+                        </div>
+                        <div class="advantages__text">
+                            Берём на себя все заботы связанные с  закупкой, проверкой на качество, логистикой и растаможкой. От вас требуется лишь заполнить техническое задание, одобрить  образцы товаров и после принять товар на своём складе!
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__section">
+                    <div class="advantages__icon">
+                        <img src="icons/flight.png" alt="flight">
+                    </div>
+                    <div class="advantages__descr">
+                        <div class="advantages__subtitle">
+                            Поездка на производство в Китай
+                        </div>
+                        <div class="advantages__text">
+                            У нас большой опыт в бизнес поездках по Китаю. Мы с большой радостью и желанием организуем вам такую поездку в Китай под ключ. Сделаем визу, трансфер из аэропорта, забронируем отель, предоставим переводчика. Организуем поездку на производство. Шоп тур. Мебельный тур. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="container">
+            <div class="work__title">
+                <h2>Наша работа - больше чем просто доставка</h2>
+            </div>
+            <div class="divider"></div>
+            <div class="work__suptitle">
+                Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза и ваших требований по срокам и бюджету.
+            </div>
+            <div class="work__wrapper">
+                <div class="work__section">
+                    <div class="work__image">
+                        <img src="img/cargo.jpg" alt="cargo_in_hands">
+                    </div>
+                    <div class="descr">
+                        <div class="work__subtitle">Страховка груза</div>
+                        <div class="work__text">Все грузы, логистику которых осуществляет Global Opt, застрахованы. Мы гарантируем полное возмещение стоимости груза в случаях, предусмотренных страхо- вым соглашением. Все ваши тревоги наша компания берет на себя.</div>
+                    </div>
+                </div>
+                <div class="work__section">
+                    <div class="work__image">
+                        <img src="img/delivery.jpg" alt="delivery_on_ship">
+                    </div>
+                    <div class="descr">
+                        <div class="work__subtitle">Логистика последней мили</div>
+                        <div class="work__text">Мы осуществляем доставку вашего груза до конкретного адреса. Привоз согласовывается менеджерами по телефону, предварительно за сутки и за час до доставки. Также мы предоставляем услуги грузчиков по месту доставки груза.</div>
+                    </div>
+                </div>
+                <div class="work__section">
+                    <div class="work__image">
+                        <img src="img/watch.jpg" alt="watch">
+                    </div>
+                    <div class="descr">
+                        <div class="work__subtitle">Мы всегда смотрим вперед
+                        </div>
+                        <div class="work__text">Философия нашей компании, делать себя и своих партнеров по всему миру, успешными и богатыми. Поэтому мы всегда открыты к диалогу о партнерстве и инвестициях.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="china">
+        <div class="container">
+            <div class="china__icon">
+                <div class="china__circle">
+                    <img src="icons/agent.png" alt="agent">
+                </div>
+            </div>
+            <div class="china__title">
+                <h2>Агент в Китае</h2>
+            </div>
+            <div class="china__subtitle">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</div>
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="container">
+            <div class="price__title">
+                <h2>Цены на любой вариант доставки</h2>
+            </div>
+            <div class="divider"></div>
+            <div class="price__subtitle">Перевозки грузов на дальние расстояния без каких-либо ограничений. Любой груз доставим вовремя.</div>
+            <div class="price__cards">
+                    <div class="price__card">
+                        <div class="price__card_title">
+                            <h4>Доставка морем</h4>
+                        </div>
+                        <div class="price__card_descr">
+                            <div class="price__card_icon">
+                                <img src="icons/slowest.png" alt="slowest">
+                            </div>
+                            <div class="price__card_subtitle">Доставка 35-50 дней</div>
+                            <div class="price__card_price">от 0,3$ за 1 кг</div>
+                            <div class="price__card_text">Морские перевозки грузов из Китая в Россию за 35 дней с прохождением таможни</div>
+                        </div>
+                        <button class="button button_card">Подробнее</button>
+                    </div>
+                <div class="price__card">
+                    <div class="price__card_title">
+                        <h4>ж/д доставка</h4>
+                    </div>
+                    <div class="price__card_descr">
+                        <div class="price__card_icon">
+                            <img src="icons/slow.png" alt="slow">
+                        </div>
+                        <div class="price__card_subtitle">Доставка 15-28 дней</div>
+                        <div class="price__card_price">от 1$ за 1 кг</div>
+                        <div class="price__card_text">ЖД перевозки грузов из Китая в Россию от 2 недель с прохождением таможни</div>
+                    </div>
+                    <button class="button button_card">Подробнее</button>
+                </div>
+                <div class="price__card">
+                    <div class="price__card_title">
+                        <h4>Автодоставка</h4>
+                    </div>
+                    <div class="price__card_descr">
+                        <div class="price__card_icon">
+                            <img src="icons/fast.png" alt="fast">
+                        </div>
+                        <div class="price__card_subtitle">Доставка 12-20 дня</div>
+                        <div class="price__card_price">от 1$ за 1 кг</div>
+                        <div class="price__card_text">Автоперевозки грузов из Китая в Россию от 2 недель с прохождением таможни</div>
+                    </div>
+                    <button class="button button_card">Подробнее</button>
+                </div>
+                <div class="price__card">
+                    <div class="price__card_title">
+                        <h4>Авиа доаставка</h4>
+                    </div>
+                    <div class="price__card_descr">
+                        <div class="price__card_icon">
+                            <img src="icons/fastest.png" alt="fastest">
+                        </div>
+                        <div class="price__card_subtitle">Доставка 1-12 дней</div>
+                        <div class="price__card_price">от 6$ за 1 кг</div>
+                        <div class="price__card_text">Авиаперевозки грузов из Китая в Россию до 2 недель с прохождением таможни</div>
+                    </div>
+                    <button class="button button_card">Подробнее</button>
+                </div>
+            </div>
+
+            <div class="price__consultation">
+                <div class="price__consultation_title">
+                    <h3>Заказать бесплатную консультацию</h3>
+                </div>
+                <div class="price__consultation_wrapper">
+                    <div class="price__consultation_icon">
+                        <img src="icons/consultation.png" alt="consultation">
+                    </div>
+
+                    <form method="POST" id="form" action="#" class="price__form">
+                        <input required  name="name" placeholder="Ваше имя..." id="name" type="text">
+                        <input required name="phone" placeholder="Ваш номер телефона..." id="phone" type="phone">
+                        <input required  name="email" placeholder="ваш e-mail..." id="email" type="email">
+                        <button class="button button_price">Отправить заявку</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
