@@ -1,9 +1,10 @@
 .price {
-    padding: 58px 0px;
+    padding-top: 58px;
     &__title {
         font-size: 26px;
         font-weight: 700;
         text-align: center;
+        text-transform: uppercase;
     }
     &__subtitle {
         font-size: 21px;

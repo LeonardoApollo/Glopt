@@ -31,7 +31,7 @@
                         <div class="header__quest">Есть вопросы?</div>
                         <a href="tel:+74999228974" class="header__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button class="button button_main"><a href=»tel:+74999228974″>перезвоните мне</a></button>
+                    <a href=»tel:+74999228974″><button class="button button_main">перезвоните мне</button></a>
                 </div>
         </header>
 
@@ -321,25 +321,146 @@
                     <button class="button button_card">Подробнее</button>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="price__consultation">
-                <div class="price__consultation_title">
-                    <h3>Заказать бесплатную консультацию</h3>
+    <section class="consultation">
+        <div class="container">
+            <div class="consultation__title">
+                <h2>Заказать бесплатную консультацию</h2>
+            </div>
+            <div class="consultation__wrapper">
+                <div class="consultation__icon">
+                    <img src="icons/consultation.png" alt="consultation">
                 </div>
-                <div class="price__consultation_wrapper">
-                    <div class="price__consultation_icon">
-                        <img src="icons/consultation.png" alt="consultation">
-                    </div>
 
-                    <form method="POST" id="form" action="#" class="price__form">
+                <form method="POST" id="form" action="#" class="consultation__form">
+                    <div class="consultation__input">
                         <input required  name="name" placeholder="Ваше имя..." id="name" type="text">
+                    </div>
+                    <div class="consultation__input">
                         <input required name="phone" placeholder="Ваш номер телефона..." id="phone" type="phone">
-                        <input required  name="email" placeholder="ваш e-mail..." id="email" type="email">
-                        <button class="button button_price">Отправить заявку</button>
-                    </form>
+                    </div>
+                    <div class="consultation__input">
+                        <input required  name="email" placeholder="Ваш e-mail..." id="email" type="email">
+                    </div>
+                    <div class="consultation__form_button">
+                        <button class="button button_consultation">Отправить заявку</button>
+                    <div>
+                </form>
+            </div>
+        </div>
+    </section>
 
+    <section class="menagers">
+        <div class="container">
+            <div class="menagers__icon">
+                <div class="menagers__circle">
+                    <img src="icons/menagers.png" alt="menagers">
                 </div>
             </div>
+            <div class="menagers__title">
+                <h2>Менеджеры компании</h2>
+            </div>
+            <div class="menagers__subtitle">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.</div>
+        </div>
+    </section>
+
+    <section class="sheme" id="sheme">
+        <div class="container">
+            <div class="sheme__title">
+                <h2>Схема работы с нами</h2>
+            </div>
+            <div class="sheme__wrapper">
+                <div class="sheme__item">
+                    <div class="sheme__item_icon">
+                        <img src="icons/request.png" alt="request">
+                    </div>
+                    <div class="sheme__item_title">
+                        <h3>Заявка</h3>
+                    </div>
+                    <div class="sheme__item_text">
+                        Вы оставляете на нашем сайте или звоните нам
+                    </div>
+                </div>
+                <div class="sheme__item">
+                    <div class="sheme__item_icon">
+                        <img src="icons/analitic.png" alt="analitic">
+                    </div>
+                    <div class="sheme__item_title">
+                        <h3>Аналитика доставки</h3>
+                    </div>
+                    <div class="sheme__item_text">
+                        Мы просчитываем варианты доставки Вашего груза
+                    </div>
+                </div>
+                <div class="sheme__item">
+                    <div class="sheme__item_icon">
+                        <img src="icons/treaty.png" alt="treaty">
+                    </div>
+                    <div class="sheme__item_title">
+                        <h3>Договор</h3>
+                    </div>
+                    <div class="sheme__item_text">
+                        Заключаем с Вами договор о поставке груза из Китая
+                    </div>
+                </div>
+                <div class="sheme__item">
+                    <div class="sheme__item_icon">
+                        <img src="icons/stock_delivery.png" alt="stock_delivery">
+                    </div>
+                    <div class="sheme__item_title">
+                        <h3>Доставка на наш склад</h3>
+                    </div>
+                    <div class="sheme__item_text">
+                        Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад 
+                    </div>
+                </div>
+                <div class="sheme__item">
+                    <div class="sheme__item_icon">
+                        <img src="icons/cargo_check.png" alt="cargo_check">
+                    </div>
+                    <div class="sheme__item_title">
+                        <h3>Проверка груза</h3>
+                    </div>
+                    <div class="sheme__item_text">
+                        Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе
+                    </div>
+                </div>
+                <div class="sheme__item">
+                    <div class="sheme__item_icon">
+                        <img src="icons/cargo_delivery.png" alt="cargo_delivery">
+                    </div>
+                    <div class="sheme__item_title">
+                        <h3>Доставка груза</h3>
+                    </div>
+                    <div class="sheme__item_text">
+                        Мы перевозим ваш груз до места назначения и производим таможенную очистку
+                    </div>
+                </div>
+                <div class="sheme__item">
+                    <div class="sheme__item_icon">
+                        <img src="icons/payment.png" alt="payment">
+                    </div>
+                    <div class="sheme__item_title">
+                        <h3>Оплата</h3>
+                    </div>
+                    <div class="sheme__item_text">
+                        Оплачиваете доставку груза при получении 
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="rewiew" id="review">
+        <div class="container">
+            <div class="rewiew__title">
+                <h2>отзывы наших клиентов</h2>
+            </div>
+            <div class="divider"></div>
+            <div class="rewiew__subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
         </div>
     </section>
 
