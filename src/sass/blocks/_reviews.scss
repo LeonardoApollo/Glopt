@@ -1,4 +1,7 @@
 .rewiew {
+    .container {
+        width: 1450px;
+    }
     padding: 50px 0px;
     &__title {
         font-size: 26px;
@@ -15,3 +18,99 @@
     }
 }
 
+.owl-carousel {
+    margin-top: 25px;
+    .owl-stage-outer {
+        position: relative;
+    }
+    .owl-item.active.center {
+        opacity: 1;
+        .owl-carousel__item {
+            transform: translateX(-105px);
+            width: 610px;
+            height: 272px;
+            margin-top: 0px;
+        }
+        .owl-carousel__icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img {
+                max-width: 114px;
+                max-height: 117px;
+            }
+        }
+        .owl-carousel__title {
+            margin-top: 5px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        .owl-carousel__text {
+            padding: 0;
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+    .owl-item {
+        opacity: 0.5;
+    }
+    &__item {
+        margin-top: 56px;
+        width: 405px;
+        height: 146px;
+    }
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 75px;
+            max-height: 75px;
+        }
+    }
+    &__title {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__text {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 5px;
+        font-size: 10px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .owl-nav {
+        position: absolute;
+        transform: translate3d(368%, -465%, 0);
+        .owl-prev {
+            width: 30px;
+            height: 30px;
+            border-top: 2px solid #ed6353  !important;
+            border-right: 2px solid #ed6353  !important;
+            margin: 16px 0 0 0px;
+            transform: rotate(-135deg);
+            display: inline-block;
+            transition: 1s;
+        }
+        .owl-next {
+            width: 30px;
+            height: 30px;
+            border-top: 2px solid #ed6353 !important;
+            border-right: 2px solid #ed6353 !important;
+            margin: 16px 0 0 110px;
+            transform: rotate(45deg);
+            display: inline-block;
+            transition: 1s;
+        }
+    }
+    .owl-nav.active {
+        display: none;
+        transition: 0.01s linear;
+    }
+}

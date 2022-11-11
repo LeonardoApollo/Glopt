@@ -1,6 +1,7 @@
 'use strict';
 $(document).ready(function(){
 
+    //Плавная прокрутка
     let $page = $('html, body');
     $('a[href*="#"]').click(function() {
         $page.animate({
@@ -9,7 +10,39 @@ $(document).ready(function(){
         return false;
     });
 
+    //Слайдер
+    $(".owl-carousel").owlCarousel({
+        center: true,
+        items:3,
+        mouseDrag: false,
+        loop: true,
+        startPosition: 1,
+        nav: true,
+        navText: true,
+        slideTransition: 'ease-out',
+        smartSpeed: 1000,
+        margin: 115
+    });
 
+    let owlnav = $(".owl-nav")
+    let owlprev = $(".owl-prev")
+    let owlnext = $(".owl-next");
+    owlprev.click(function() {
+        owlnav.addClass('active');
+        function owldelete() {
+            owlnav.removeClass('active');
+        }
+        setTimeout(owldelete, 1000);
+    });
+    owlnext.click(function() {
+        owlnav.addClass('active');
+        function owldelete() {
+            owlnav.removeClass('active');
+        }
+        setTimeout(owldelete, 1000);
+    });
+
+    //Валидация
     $('form').validate({
 		rules: {
             name: {
@@ -42,6 +75,7 @@ $(document).ready(function(){
 		}
 	});
 
+    //Отправка письма через mailer php
     $('form').submit(function(e) {
         e.preventDefault();
         
@@ -54,7 +88,7 @@ $(document).ready(function(){
 			url: "smart.php",
 			data: $(this).serialize()
 		})
-        window.alert('Ваше сообщение успешно отправлено!');
+        +prompt('Ваше сообщение успешно отправлено!');
         form.reset();
     });
 
