@@ -47,7 +47,38 @@ $(document).ready(function () {
     setTimeout(owldelete, 1000);
   }); //Валидация
 
-  $('form').validate({
+  $('.consultation__form').validate({
+    rules: {
+      name: {
+        required: true,
+        minlength: 3
+      },
+      phone: {
+        required: true,
+        number: true
+      },
+      email: {
+        required: true,
+        email: true
+      },
+      chekbox: {
+        required: true
+      }
+    },
+    messages: {
+      name: "Неверное имя",
+      email: {
+        required: "Введите свою почту",
+        email: "Неверный адрес почты"
+      },
+      phone: {
+        required: "Введите номер телефона",
+        phone: "Неверный номер телефона"
+      },
+      checkbox: 'Подтвердите обработку персональных данных'
+    }
+  });
+  $('.question__form').validate({
     rules: {
       name: {
         required: true,

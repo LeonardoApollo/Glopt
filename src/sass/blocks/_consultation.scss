@@ -33,6 +33,10 @@
             border-radius: 30px;
             padding: 0px 30px;
             border: 1px solid #d6d6d6;
+            &::placeholder {
+                font-size: 13px;
+                font-weight: 300;
+            }
         }
         &_button {
             position: absolute;

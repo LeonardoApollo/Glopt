@@ -1,0 +1,95 @@
+.question {
+    padding-top: 62px;
+    padding-bottom: 79px;
+    background: url(../img/question_bg.jpg) center (center/cover) no-repeat;;
+    &__title {
+        font-size: 19px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 5px;
+    }
+    &__subtitle {
+        font-size: 14px;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1px;
+    }
+    &__wrapper {
+        width: 895px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 895px;
+        grid-template-rows: 70px 230px;
+    }
+    &__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #25333c;
+    }
+    &__form {
+        position: relative;
+        background-color: #e1ded7;
+        padding: 25px 44px 18px 44px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        input {
+            display: inline-block;
+            width: 265px;
+            height: 45px;
+            border-radius: 30px;
+            padding: 0px 30px;
+            border: 1px solid #d6d6d6;
+            &::placeholder {
+                font-size: 13px;
+                font-weight: 300;
+            }
+        }
+        &_button {
+            button {
+                height: 45px;
+                width: 180px;
+            }
+        }
+        .error {
+            box-shadow: 0 0 10px red;
+            text-align: center;
+        }
+        label.error {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -22px;
+        width: 200px;
+        box-shadow: none;
+        font-size: 12px;
+        color: red;
+        }
+        &:first-child {
+            left: 25%;
+        }
+    }
+    &__textarea {
+        textarea {
+            width: 810px;
+            height: 71px;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 300;
+            padding-left: 25px;
+            padding-top: 15px;
+            color: #7d7f81;
+            resize: none;
+            border: 1px solid #ffffff;
+        }
+    }
+    &__input {
+        position: relative;
+        display: inline-block;
+    }
+}

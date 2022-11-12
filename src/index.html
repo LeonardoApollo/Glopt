@@ -514,9 +514,69 @@
 
     <section class="question">
         <div class="container">
+            <div class="question__wrapper">
+                <div class="question__header">
+                    <div class="question__title">
+                        <h2>Остались вопросы?</h2>
+                    </div>
+                    <div class="question__subtitle">
+                        Напишите нам!
+                    </div>
+                </div>
+    
+                <form method="POST" id="form" action="#" class="question__form">
+                    <div class="question__input">
+                        <input required  name="name" placeholder="Ваше имя..." id="name" type="text">
+                    </div>
+                    <div class="question__input">
+                        <input required name="phone" placeholder="Ваш номер телефона..." id="phone" type="phone">
+                    </div>
+                    <div class="question__input">
+                        <input required  name="email" placeholder="Ваш e-mail..." id="email" type="email">
+                    </div>
+                    <div class="question__textarea">
+                        <textarea name="textarea" id="textarea" type="textarea">Сообщение... </textarea>
+                    </div>
+                    <div class="question__form_button">
+                        <button class="button button_question">Отправить заявку</button>
+                    <div>
+                </form>
 
+            </div>
         </div>
     </section>
+
+    <section class="map">
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/house/sadovnicheskaya_ulitsa_5/Z04YcAVnS0QGQFtvfXt1dnVmYg==/?ll=37.627474%2C55.747997&utm_medium=mapframe&utm_source=maps&z=17.69" style="color:#eee;font-size:12px;position:absolute;top:14px;">Садовническая улица, 5 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUbmKu3DA" width="100%" height="500" frameborder="1" allowfullscreen="" style="position:relative;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__left">
+                    <a href="#" class="footer__logo">
+                    <img src="icons/logo.png" alt="logo">
+                </a>
+                <div class="footer__text">
+                    Global Opt - Доставка грузов из Китая в Россию и СНГ
+                </div>
+            </div>
+                <div class="footer__right">
+                    <div class="footer__contacts">
+                    <div class="footer__quest">Есть вопросы?</div>
+                    <a href="tel:+74999228974" class="footer__phone">+7 (926) 423 01 00</a>
+                    </div>
+                    <a href=»tel:+74999228974″><button class="button button_main">перезвоните мне</button></a>
+                </div>
+            </div>
+            <div class="footer__divider"></div>
+                <div class="footer__wrapper">
+                    <div class="footer__rights">© 2010 Scratch.com.ua</div>
+                    <a class="footer__policy" href="policy.html">Политка конфидециальности</a>
+                    <div class="footer__author">Создатейль сайта: <span>Me</span></div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="js/modules/jquery.validate.min.js"></script>
