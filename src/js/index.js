@@ -24,9 +24,9 @@ $(document).ready(function(){
         margin: 115
     });
 
-    let owlnav = $(".owl-nav")
-    let owlprev = $(".owl-prev")
-    let owlnext = $(".owl-next");
+    let owlnav = $(".owl-nav"),
+        owlprev = $(".owl-prev"),
+        owlnext = $(".owl-next");
     owlprev.click(function() {
         owlnav.addClass('active');
         function owldelete() {
